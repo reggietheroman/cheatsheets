@@ -1,0 +1,11 @@
+## Check ssh keys
+
+```
+> ls -la ~/.ssh
+```
+
+## Copy ssh public key to clipboard
+
+```
+> xclip -sel clip < ~/.ssh/id_rsa.pub
+```
